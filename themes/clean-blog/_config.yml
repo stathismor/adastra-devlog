@@ -18,15 +18,15 @@ default_post_title: Untitled
 # Comments. Choose one by filling up the information
 comments:
   # Disqus comments
-  disqus_shortname:
+  disqus_shortname: ad-astra-1
   # Facebook comments
   facebook:
-    appid:
+    appid: 300675490369486
     comment_count: 5
     comment_colorscheme: light
 
 # Google Analytics Tracking ID
-google_analytics:
+google_analytics: 91496300
 
 # Addthis ID
 addthis:
