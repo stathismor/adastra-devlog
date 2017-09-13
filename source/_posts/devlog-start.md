@@ -13,7 +13,7 @@ Hey everyone! Welcome to my bog, where I will be talking about the development o
 {% asset_img game_screenshot.png game screenshot %}
 
 ## What is Ad Astra?
-Ad Astra will be an asteroids-like space shooter, with a couple of twists. It will be a fast-paced, “shoot first think later” kind of game. Some ideas are there, but definitely some will come later. I imagine I will be iterating over some features, until I have something that works.
+Ad Astra will be an asteroids-like space shooter. It will be a fast-paced, “shoot first think later” kind of game. Some ideas are there, but definitely some will come later. I imagine I will be iterating over some features, until I have something that works.
 
 Obviously I am not expecting this to be a state of the art game; it will at best be a prototype for a later, better version, or just a good learning exercise. 
 

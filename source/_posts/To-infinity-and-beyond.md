@@ -28,7 +28,7 @@ this.background.fixedToCamera = true;
 
 Initially we load our background in _create_. We use a tile sprite, since we'll be be "rolling" the texture on the sprite. We also set it to be fixed to the camera, as it won't be automatically moving according to the camera movement. It will always stay at the original position.
 
-Then in _update_, we need to do two things. Firstly, set the new camera bounds, around the player. Secondly, we move the tile's position on the background texture.
+Then in _update_, we need to do two things. Firstly, we move the tile's position in the oposite way the camera is moving (this feels a bit like Futurama's {% link dark matter engine http://futurama.wikia.com/wiki/Dark_matter_engine Dark matter engine %}). Secondly, we set the new camera bounds around the player.
 
 {% codeblock lang:js %}
 this.background.tilePosition.x = -this.game.camera.x;
@@ -38,7 +38,12 @@ this.game.world.bounds.centerOn(this.player.body.x, this.player.body.y);
 this.game.camera.setBoundsToWorld();
 {% endcodeblock %}
 
-If I had to make an analogy for a one-axis movement, imagine space being a toilet paper roll. And on the paper, there are the stars that you want to show. The roll stays always on view, fixed to the same position as our player moves. The paper is rolling to the left or right, according to the player, and creates the illusion of movement.
+If I had to make an analogy, imagine space being a toilet paper roll. And on the paper, there are the stars that you want to show.
 
-And here's our toilet paper rolling stars background.
+{% asset_img space_toilet_paper.png Space toiler paper %}
+
+The roll stays always on view, fixed to the same position as our player moves. The paper is rolling to the left or right, according to where the player is going, and creates the illusion of movement.
+
+And here's our toilet paper rolling stars background:
+
 {% asset_img infinite_background.gif Infinite background %}
