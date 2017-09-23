@@ -8,7 +8,7 @@ tags:
 - Asteroids
 date: 2017-05-01 20:37:00
 ---
-Hey everyone! Welcome to my bog, where I will be talking about the development of my new game, **Ad Astra**. I am quite new to game development and the technologies around it, so progress will be slow. I aim to post regularly about anything interesting or challenging I find along the way.
+Hey everyone! Welcome to my blog, where I will be talking about the development of my new game, **Ad Astra**. I am quite new to game development and the technologies around it, so progress will be slow. I aim to post regularly about anything interesting or challenging I find along the way.
 
 {% asset_img game_screenshot.png game screenshot %}
 
