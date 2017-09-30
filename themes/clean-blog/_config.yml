@@ -7,7 +7,7 @@ menu:
     icon: github
 
 # Title on top left of menu. Leave empty to use main blog title
-menu_title: Ad Astra
+menu_title: Play Ad Astra
 
 # URL of the Home page image
 index_cover: images/home-bg.jpg
@@ -42,3 +42,5 @@ github_url: https://github.com/jManji/adastra
 gitlab_url:
 linkedin_url:
 mailto:
+
+play: http://play.adastrathegame.com
